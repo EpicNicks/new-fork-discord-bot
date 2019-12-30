@@ -1,0 +1,34 @@
+{
+    "126136860618522624": {
+        "data": {
+            "coins": 1,
+            "level": 1,
+            "luck": 0,
+            "n-wordpass": 3
+        },
+        "id": 126136860618522624,
+        "py/object": "player_data.player.Player"
+    },
+    "161957055903694849": {
+        "data": {
+            "coins": 10994,
+            "level": 1,
+            "luck": 0,
+            "n-wordpass": 3
+        },
+        "id": 161957055903694849,
+        "py/object": "player_data.player.Player"
+    },
+    "260149086198431750": {
+        "data": {
+            "coins": 451,
+            "fork": 1,
+            "level": 1,
+            "luck": 0,
+            "n-wordpass": 3,
+            "nothing": 1
+        },
+        "id": 260149086198431750,
+        "py/object": "player_data.player.Player"
+    }
+}
