@@ -190,10 +190,7 @@ class Casino:
     class FiveCardDraw:
 
         suits = ["\♦", "\♥", "\♣", "\♠"]
-        cards = [
-            ("2", 2), ("3", 3), ("4", 4), ("5", 5), ("6", 6), ("7", 7), ("8", 8), ("9", 9), ("10", 10),
-            ("J", 11), ("Q", 12), ("K", 13), ("A", 14)
-        ]
+        cards = ["2","3","4","5","6","7","8","9","10","J","Q","K","A"]
 
         class GameState(Enum):
             NONE = 0
@@ -202,7 +199,7 @@ class Casino:
         def __init__(self, bet, message, player_list):
             self.game_state = self.GameState.NONE
             self.hand = []
-            self.deck_base = [(card[0], suit) for card in self.cards for suit in self.suits]
+            self.deck_base = [(card, suit) for card in self.cards for suit in self.suits]
             self.deck = self.deck_base.copy()
             random.shuffle(self.deck)
 
@@ -266,6 +263,75 @@ class Casino:
 
         def compare_score(self, message, player_list):
             # Handle dealer random hand and check score
+            CARD = 0
+            SUIT = 1
+
+            dealer_hand = [self.draw() for i in range(5)]
+
+            hand_without_suits = [card[CARD] for card in self.hand]
+            sorted_hand = hand_without_suits.sort(key=self.cards.index)
+            #collect duplicates in a dict
+            card_dict = {}
+            for card in sorted_hand:
+                if not card in card_dict:
+                    card_dict[card] = 0
+                card_dict[card] += 1
+
+            four_card = None
+            for card, amount in card_dict.items():
+                if amount == 4:
+                    four_card = card
+                    break
+            three_card = None
+            if four_card is None:
+                for card, amount in card_dict.items():
+                    if amount == 3:
+                        three_card = card
+                        break
+            two_card = []
+            for card, amount in card_dict.items():
+                if amount == 2 and card != three_card:
+                    two_card.push(card)
+                    break
+
+            is_all_same_suit = all(self.hand[0][SUIT] == card[SUIT] for card in self.hand)
+            is_consecutive = True
+            for i in range(len(sorted_hand) - 1):
+                is_consecutive = self.cards.index(sorted_hand[i]) - self.cards.index(sorted_hand[i+1]) == -1
+            #royal flush
+            if hand_without_suits.sort(key=self.cards.index) == ["10", "J", "Q", "K", "A"] and all_same_suit:
+                pass
+            #straight flush
+            elif is_consecutive and is_all_same_suit:
+                pass
+            #four of a kind
+            elif four_card is not None:
+                pass
+            #full house
+            elif three_card is not None and not two_card:
+                pass
+            #flush
+            elif is_all_same_suit:
+                pass
+            #straight
+            elif is_consecutive:
+                pass
+            #three of a kind
+            elif three_card is not None:
+                pass
+            #two pair
+            elif len(two_card) == 2:
+                pass
+            #pair
+            elif len(two_card) == 1:
+                pass
+            #high card
+            else:
+                pass
+
+
+            #reset the gamestate
+            self.game_state = self.GameState.NONE
             return ""
 
 

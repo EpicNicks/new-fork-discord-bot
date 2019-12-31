@@ -25,8 +25,7 @@ class Casinos:
                        "5-card-draw <in development>\n" \
                        "ceelo\n\n" \
                        "Type -casino <game-name> <bet-amount> to play that game\n" \
-                       "Type -casino <game-name> description for a shot description of that game!\n\n" \
-                       "Type exit to leave the casino"
+                       "Type -casino <game-name> description for a shot description of that game!"
             elif len(words) == 3:
                 if words[1] in casino.games:
                     p_casino = self.add_player(message)
