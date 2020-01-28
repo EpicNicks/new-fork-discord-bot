@@ -3,8 +3,7 @@
         "data": {
             "coins": 1,
             "level": 1,
-            "luck": 0,
-            "n-wordpass": 3
+            "luck": 0
         },
         "id": 126136860618522624,
         "py/object": "player_data.player.Player"
@@ -13,8 +12,7 @@
         "data": {
             "coins": 10994,
             "level": 1,
-            "luck": 0,
-            "n-wordpass": 3
+            "luck": 0
         },
         "id": 161957055903694849,
         "py/object": "player_data.player.Player"
@@ -25,7 +23,6 @@
             "fork": 1,
             "level": 1,
             "luck": 0,
-            "n-wordpass": 3,
             "nothing": 1
         },
         "id": 260149086198431750,

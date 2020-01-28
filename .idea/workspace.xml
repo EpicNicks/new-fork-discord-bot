@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da9b44b8-e50f-4071-b311-4ed4396dd84c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/venv/items/casino.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/items/casino.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/items/casinos.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/items/casinos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/player_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/player_data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,34 +16,34 @@
     <session id="-312881570">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="json" value="17" />
+          <entry key="gitignore" value="2" />
+          <entry key="json" value="18" />
           <entry key="py" value="48" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="17" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JSON" value="18" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="gitignore" value="7" />
+          <entry key="gitignore" value="77" />
           <entry key="json" value="135" />
           <entry key="py" value="33870" />
           <entry key="txt" value="1" />
@@ -51,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="135" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="PLAIN_TEXT" value="95" />
           <entry key="Python" value="33870" />
         </counts>
       </usages-collector>
@@ -60,24 +61,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1577733719215" expanded="true" signature="602:823" ph="..." />
-                <marker date="1577733719215" expanded="true" signature="963:968" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/token.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="59" lean-forward="true" selection-start-column="59" selection-end-column="59" />
+              <caret column="59" selection-start-column="59" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -100,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/items/casinos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
+            <state relative-caret-position="775">
               <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
@@ -112,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/items/casino.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="274" column="36" lean-forward="true" selection-start-line="274" selection-start-column="36" selection-end-line="274" selection-end-column="36" />
+            <state relative-caret-position="31">
+              <caret line="274" column="36" selection-start-line="274" selection-start-column="36" selection-end-line="274" selection-end-column="36" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
                 <marker date="1577760283478" expanded="true" signature="389:395" ph="..." />
@@ -131,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/venv/items/shop.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1705">
-              <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <marker date="1577388528648" expanded="true" signature="246:247" ph="..." />
@@ -179,8 +166,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/player_data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="217">
+              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/player_data_backup.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -216,16 +221,16 @@
         <option value="$PROJECT_DIR$/venv/commands/Command.py" />
         <option value="$PROJECT_DIR$/venv/commands/command.py" />
         <option value="$PROJECT_DIR$/venv/player_data/player_state.py" />
-        <option value="$PROJECT_DIR$/venv/player_data.json" />
         <option value="$PROJECT_DIR$/venv/player_data/player.py" />
         <option value="$PROJECT_DIR$/venv/commands/command_functions.py" />
         <option value="$PROJECT_DIR$/venv/items/shop.py" />
         <option value="$PROJECT_DIR$/venv/player_data/players.py" />
         <option value="$PROJECT_DIR$/venv/main.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/venv/token.txt" />
         <option value="$PROJECT_DIR$/venv/items/casinos.py" />
         <option value="$PROJECT_DIR$/venv/items/casino.py" />
+        <option value="$PROJECT_DIR$/venv/player_data.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -348,18 +353,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1085353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1085353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1123348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1123348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32929516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -444,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/player_data_backup.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-724748727/_functools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -490,11 +488,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-724748727/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="3650" column="8" selection-start-line="3650" selection-start-column="8" selection-end-line="3650" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#1#15#0" expanded="true" />
-            <marker date="1576909446033" expanded="true" signature="204:397" ph="..." />
-            <marker date="1576909446033" expanded="true" signature="593:600" ph="..." />
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1577733719215" expanded="true" signature="602:823" ph="..." />
+            <marker date="1577733719215" expanded="true" signature="963:968" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/token.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="59" selection-start-column="59" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -511,10 +530,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/items/casinos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+            <marker date="1577739060551" expanded="true" signature="122:128" ph="..." />
+            <marker date="1577739060551" expanded="true" signature="1522:1530" ph="..." />
+            <marker date="1577739060551" expanded="true" signature="1738:1848" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/items/shop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1705">
-          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1577388528648" expanded="true" signature="246:247" ph="..." />
@@ -554,69 +586,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/player_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/token.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" lean-forward="true" selection-start-column="59" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/items/casinos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
-          <folding>
-            <element signature="e#1#32#0" expanded="true" />
-            <marker date="1577739060551" expanded="true" signature="122:128" ph="..." />
-            <marker date="1577739060551" expanded="true" signature="1522:1530" ph="..." />
-            <marker date="1577739060551" expanded="true" signature="1738:1848" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1577733719215" expanded="true" signature="602:823" ph="..." />
-            <marker date="1577733719215" expanded="true" signature="963:968" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-724748727/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="3650" column="8" selection-start-line="3650" selection-start-column="8" selection-end-line="3650" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/items/casino.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="274" column="36" lean-forward="true" selection-start-line="274" selection-start-column="36" selection-end-line="274" selection-end-column="36" />
+        <state relative-caret-position="31">
+          <caret line="274" column="36" selection-start-line="274" selection-start-column="36" selection-end-line="274" selection-end-column="36" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
             <marker date="1577760283478" expanded="true" signature="389:395" ph="..." />
             <marker date="1577760283478" expanded="true" signature="8916:9001" ph="..." />
             <marker date="1577760283478" expanded="true" signature="11129:11142" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/player_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/player_data_backup.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>

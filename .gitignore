@@ -1,6 +1,10 @@
 # token file
 **/token.txt
 
+#player_data
+**/player_data.json
+**/player_data_backup.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
